@@ -15,10 +15,10 @@ After the statistical model, I loaded the datasets into Tableau and started crea
 Statistical Model: I decided to run the independent variables of “homogenous ancestry” and “heterogenous ancestry” against the dependent variables “on reserve” and “off reserve”. Basically trying to see if there is a link between the number of people with either single or mixed ancestry from a specific First Nation group versus the number of people of that group living on or off a reservation.
 The fit of the model isn’t great. The R-squared values are pretty low, sitting at around 11-13%, so it can’t really predict much of the variance of the data. The p-values are also high and higher than the 0.05 threshold so the data can’t be considered significant. Although one interesting thing from the results is the negative coefficient when testing the number of people with heterogeneous ancestry against the number of people off a reservation. This tells us that the more people have mixed ancestry, the less people (of that group) are off the reservation, therefore on the reservation. It could lead to implications that despite having mixed ancestry from different groups, there may be a strong sense of community encouraging people to remain on reservations.
 
-             On reserve      Off Reserve
-Adjusted R2: -0.112             0.137
-p-values:     0.636/0.703       0.123/0.290
-coefficient:  0.0032/0.0095     0.0517/-0.1283
+                           On reserve        Off Reserve
+             Adjusted R2: -0.112             0.137
+             p-values:     0.636/0.703       0.123/0.290
+             coefficient:  0.0032/0.0095     0.0517/-0.1283
 
 When it comes to the visualisations made via Tableau, a simple one I made was to see the evolution of the population of certain groups. So for example, the “Cree” First Nation and the Métis grouping has mostly had a stable population between 2016 and 2021, but the Mi’kmaq group population has declined within the same time. Another example is the Métis grouping also had the highest income statistics between First Nations in general and Inuits. Also, when comparing the proportion of populations located on or off a reservation, it can be easily noticed that for the Qalipu Mi’kmaq First Nation, a heavy majority seems to be living off reservation.
 All these visualisations lead to questions such as what are the factors driving people off or onto a reservation? What are the social and living conditions there? Why is income so much higher among people of the Métis group? What is driving population decline across different groups? They basically are giving insights on what sort of questions we should be asking to better research issues and phenomena going on with First Nations across Canada.
